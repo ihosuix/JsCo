@@ -1,12 +1,8 @@
-// دیتا تایپ استرینگ
-// data type string
-
-let Hoseinage = "towone";
-//log
-console.log(Hoseinage);
-//خروجی تعداد کاراکتر استرینگ
-console.log(Hoseinage.length);
-
+// data type number and operator
+ let age = 20;
+ let age2 = 20;
+ console.log(age + age2);
+ console.log(age - age2);
+ console.log(age * age2);
+ console.log(age / age2);
  
-
-
