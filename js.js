@@ -1,16 +1,12 @@
-//متغیر
-let PI = 3.14;
-console.log(PI);
+// دیتا تایپ استرینگ
+// data type string
 
-PI = 3.15;
-console.log(PI);
+let Hoseinage = "towone";
+//log
+console.log(Hoseinage);
+//خروجی تعداد کاراکتر استرینگ
+console.log(Hoseinage.length);
 
-//ثابت
-const pi = 3.14
-console.log(pi);
-
-//اشتباهه غیر قایل تغییر
-pi = 3.14
-console.log(pi);
+ 
 
 
