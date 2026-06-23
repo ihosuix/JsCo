@@ -1,8 +1,20 @@
-// data type number and operator
- let age = 20;
- let age2 = 20;
- console.log(age + age2);
- console.log(age - age2);
- console.log(age * age2);
- console.log(age / age2);
+// data type boolean 
+
+//true
+let a = true;
+console.log(a);
+
+//false
+let b = false;
+console.log(b);
+
+//example
+let c = (10 > 8);
+console.log(c);
+
+let age = 17;
+console.log(age > 18);
+
+
+
  
