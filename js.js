@@ -1,48 +1,39 @@
-// operator | OPERATOR
+// استفاده از اپراتور + در نامبر ها
+let a = 5 + 10;
+console.log(a);
+console.log(typeof a);
 
-// Arithmetic Operator | اپراتور های محاسباتی
 
-// + - * | جمع منها ضرب
+//استفاده از اپراتور + در استرینگ ها
+let b = '5' + '10';
+console.log(b);
+console.log(typeof b);
 
-// ** | توان
-let a = 2;
-let b = 4;
-let c = a ** b;
-console.log(c);
-2*2*2*2
+let c = 'hosein';
+let d = 'shafie';
+let e = c + d;
+console.log(e);
+console.log(typeof e);
 
-// % | مادیولس یا مود یا باقی مانده تقسیم
-let d = 14;
-let e = 3;
-let f = d % e;
+//استفاده از اپراتور + بین نامبر و استرینگ که خروجی استرینگ بهمون میده
+//اگر نامبر قبل از رشته قرار بگیره نامبر ها جمع میشن و به رشته میچسبن
+let f = 5 + 6 + 'hosein';
 console.log(f);
+console.log(typeof f);
 
-// / | تقسیم
-let g = 14;
-let h = 3;
-let i = g / h;
-console.log(i);
-
-
-
-
-
-// یاداوری
-// تعیین نوع دیتا تایپ
-console.log(typeof i);
-//بررسی تعداد کاراکتر های یک رشته یا استرینگ
+//اگر نامبر ها بعد از رشته قرار بگیرن بصورت استرینگ باهاشون برخورد میشه و خروجی مقدار رشته با عدد ها کنارش قرار میگیره
+let g = 'hosein' + 5 + 6;
+console.log(g);
+console.log(typeof g);
 console.log(length.g);
 
-
-
-
-
-
-
-
-
-
-
-
-
  
+
+
+
+
+
+
+
+
+
