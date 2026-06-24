@@ -1,19 +1,25 @@
-// data type boolean 
+// تعیین نوع دیتا تایپ
+let a = 200;
+console.log(typeof a);
 
-//true
-let a = true;
-console.log(a);
+let b = "2000";
+console.log(typeof b);
 
-//false
-let b = false;
-console.log(b);
+let c = true;
+console.log(typeof c);
 
-//example
-let c = (10 > 8);
-console.log(c);
+//empety string
+let d = "";
+console.log(typeof d);
 
-let age = 17;
-console.log(age > 18);
+//data type undefined | دیتا تایپ تعریف نشده
+let e;
+console.log(e);
+console.log(typeof e);
+
+
+
+
 
 
 
