@@ -1,33 +1,17 @@
-// Comparison Operators
-// اپراتور های مقایسه ای
+// تفاوت اپراتور === با == و ==! با =! چیه
 
-// == | علامت برابر بودن
+// اپراتور === نوع دیتا تایپ هم رو چک میکنه
 console.log(2 == 2); //T
-console.log(3 == 2); //F
+console.log(2 == "2"); //T
 
 
-// != | علامت نامساوی بودن
+console.log(2 === 2); //T
+console.log(2 === "2"); //F
+
+
+// اپراتور ==! نوع دیتا تایپ هم رو چک میکنه
 console.log(2 != 2); //F
-console.log(3 != 2); //T
+console.log(2 != "2"); //F
 
-
-// > | بزرگتر
-console.log(2 > 2); //F
-console.log(3 > 2); //T
-
-
-// < | کوچکتر 
-console.log(2 < 2); //F
-console.log(3 < 2); //F
-
-
-// >= | بزرگتر مساوی
-console.log(2 >= 2); //T
-console.log(3 >= 2); //T
-
-
-// <= | کوچکتر مساوی
-console.log(2 <= 2); //T
-console.log(3 <= 2); //F
-
-
+console.log(2 !== 2); //F
+console.log(2 !== "2"); //T
