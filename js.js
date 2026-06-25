@@ -1,50 +1,33 @@
-// Operator | Assignment Operators | اپراتور های انتسابی
+// Comparison Operators
+// اپراتور های مقایسه ای
 
-// Operator =
-//example
-let y = 20;
-
-y = 25;
-console.log(y);
-
-//operator +=
-let a = 5;
-//a = a + 2;
-
-a += 2;
-console.log(a);
-
-//operator -=
-let b = 5;
-//b = b - 2;
-
-b -= 2;
-console.log(b);
-
-//operator *=
-let c = 5;
-//c = c * 2;
-
-c *= 2;
-console.log(c);
-
-//operator /=
-let d = 5;
-//d = d / 2;
-
-d /= 2
-console.log(d);
-
-//operator **=
-let e = 5
-//e = e ** 2;
-
-e **= 2;
-console.log(e);
+// == | علامت برابر بودن
+console.log(2 == 2); //T
+console.log(3 == 2); //F
 
 
-//یاداوری
-console.log(typeof e);
-console.log(length.e);
+// != | علامت نامساوی بودن
+console.log(2 != 2); //F
+console.log(3 != 2); //T
+
+
+// > | بزرگتر
+console.log(2 > 2); //F
+console.log(3 > 2); //T
+
+
+// < | کوچکتر 
+console.log(2 < 2); //F
+console.log(3 < 2); //F
+
+
+// >= | بزرگتر مساوی
+console.log(2 >= 2); //T
+console.log(3 >= 2); //T
+
+
+// <= | کوچکتر مساوی
+console.log(2 <= 2); //T
+console.log(3 <= 2); //F
 
 
