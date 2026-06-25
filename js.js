@@ -1,36 +1,50 @@
-// Operator precedence | تقدم اپراتور ها
+// Operator | Assignment Operators | اپراتور های انتسابی
 
-// () > ** > * > / > % > + > -
+// Operator =
+//example
+let y = 20;
 
-//Example
+y = 25;
+console.log(y);
 
-let a = 2 + 3 * 4;
+//operator +=
+let a = 5;
+//a = a + 2;
+
+a += 2;
 console.log(a);
 
-let b = (2 + 3) * 4;
+//operator -=
+let b = 5;
+//b = b - 2;
+
+b -= 2;
 console.log(b);
 
-let c = 2 * 3 ** 2;
+//operator *=
+let c = 5;
+//c = c * 2;
+
+c *= 2;
 console.log(c);
 
-let d = 2 + 3 * 5 ** 2;
+//operator /=
+let d = 5;
+//d = d / 2;
+
+d /= 2
 console.log(d);
 
+//operator **=
+let e = 5
+//e = e ** 2;
 
-// source link for reading "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence"
-
-
-
-
-
-
+e **= 2;
+console.log(e);
 
 
-
-
-
-
-
-
+//یاداوری
+console.log(typeof e);
+console.log(length.e);
 
 
