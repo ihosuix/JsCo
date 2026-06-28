@@ -1,10 +1,19 @@
-// logical Operators | اپراتور های منطقی
+// ساختار های شرطی | if , else , else if , switch
 
-// && | and | و
-&&
+// if | عبارت شرطی درصورتی که درست باشد اجرا می شود
+// ساختار if
+if (condition) {
+    // کدی که باید اجرا شود
+}
 
-// || | or | یا
-||
+// example | true
+let age = 20;
+if (age > 18) {
+    console.log("شما بزرگسال هستید");
+}
 
-// ! | not | نه | برعکس کردن درست و غلط
-!
+// example // false
+let age = 17; 
+if (age > 18) {
+    console.log("شما بزرگسال هستید");
+}
