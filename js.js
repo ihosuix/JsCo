@@ -1,19 +1,36 @@
-// ساختار های شرطی | if , else , else if , switch
+//if
+//example
 
-// if | عبارت شرطی درصورتی که درست باشد اجرا می شود
-// ساختار if
-if (condition) {
-    // کدی که باید اجرا شود
+let gender = "male";
+
+if (gender === "male") {
+    console.log("پسر");
 }
 
-// example | true
-let age = 20;
-if (age > 18) {
-    console.log("شما بزرگسال هستید");
+if (gender === "female") {
+    console.log("دختر");
 }
 
-// example // false
-let age = 17; 
-if (age > 18) {
-    console.log("شما بزرگسال هستید");
+let age = 25;
+
+if (age > 18 && gender === "male") {
+    console.log("wellcome");
+}
+
+let grade = 34;
+
+if (grade > 10) {
+    console.log("grade > 10");
+}
+if (grade > 20) {
+    console.log("grade > 20");
+}
+if (grade > 30) {
+    console.log("grade > 30");
+}
+if (grade > 40) {
+    console.log("grade > 40");
+}
+if (grade > 50) {
+    console.log("grade > 50");
 }
